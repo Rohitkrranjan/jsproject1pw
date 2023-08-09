@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 20%;
+  margin-left: 40%;
+  text-align: center;
+}
+
+.all-container {
+  position: fixed;
+  text-align: center;
+  box-shadow: 5px 5px 5px 5px rgb(230, 208, 208);
+
+  border-color: rgb(236, 228, 228);
+  /* border-radius: 4px ; */
+
+  height: 300px;
+  width: 500px;
+}
+
+#heading {
+  font-size: 25px;
+  height: 100px;
+}
+
+#btn button {
+  height: 60px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.counter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#decrement {
+  padding: 10px;
+}
+
+#decrement button {
+  padding: 5px;
+  width: 160px;
+  cursor: pointer;
+  height: 55px;
+}
+
+#increment {
+  padding: 10px;
+}
+
+#increment button {
+  padding: 5px;
+  width: 160px;
+  height: 55px;
+  cursor: pointer;
+}
+
+#reset {
+  padding-top: 10px;
+}
+
+#reset button {
+  padding: 10px;
+  width: 160px;
+  height: 55px;
+  cursor: pointer;
+}

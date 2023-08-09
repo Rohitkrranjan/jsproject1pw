@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mOver-mOut</title>
+    <!-- CSS -->
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box {
+        height: 100px;
+        width: 300px;
+        background-color: red;
+        text-align: center;
+        margin-top: 400px;
+        color: white;
+        border-radius: 40px;
+      }
+
+      #btn-box {
+        padding: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      <div id="btn-box">
+        <h2 id="content">Hello coder</h2>
+      </div>
+    </div>
+
+    <script>
+      let cont = document.getElementById("content");
+      const btn = document.getElementById("btn-box");
+
+      btn.addEventListener("mouseenter", () => {
+        cont.innerHTML = "Thank you ";
+      });
+    </script>
+  </body>
+</html>
